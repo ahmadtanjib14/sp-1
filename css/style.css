@@ -1,0 +1,282 @@
+/*font family start*/
+
+/*playfair display*/@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');/*font-family: "Playfair Display", serif;*/
+
+/*ubuntu*/@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');/*font-family: "Ubuntu", sans-serif;*/
+
+/*Inconsolata*/@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');/*font-family: "Inconsolata", monospace;*/
+
+/*font family end*/
+
+/*common start*/
+body{
+    font-family:"Playfair Display", serif;;
+    font-size: 16px;
+    font-weight:400 ;
+    color: #626262;
+    margin: 0;
+    padding: 0;
+}
+/*common end*/
+
+/*header start*/
+header{
+    padding: 30px 0px;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+
+}
+
+.logo{
+    margin-top: 10px;
+    width: 12%;
+    float: left;
+
+}
+
+.logo a img{
+    width: 100%;
+
+}
+
+.menu{
+    width: 65%;
+    float: right;
+
+}
+
+.menu ul{
+    float: right;
+
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+
+}
+
+.menu ul li a{
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 55px;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+
+}
+
+.menu ul li:last-child a{
+    margin-right: 0px;
+
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+
+}
+
+/*header end*/
+
+/*section start*/
+
+
+.b_img img{
+width: 100%;
+
+}
+
+/*section end*/
+
+/*get away start*/
+
+.getaway {
+    padding:100px 0px 30px;
+}
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.light{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+
+
+}
+.title{
+    margin: 15px 0px 25px;
+    font-size: 30px;
+    font-weight: 400;
+
+
+
+
+}
+.text{
+   margin: 0;
+   line-height: 24 px;
+
+}
+
+.g_link{
+    display: block;
+    margin-top: 40px;
+    color: #626262;
+    text-decoration: none
+    
+}
+
+/*get away end*/
+
+/*blog start*/
+.blog{
+    padding: 50px 0px 100px;
+
+}
+
+.bl_content{
+    overflow: hidden;
+
+}
+.bl_item:nth-child(even){
+    margin-left: 6%;
+
+}
+
+.bl_item{
+    margin-top: 50px;
+    width: 47%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.bl_img{
+    margin-bottom: 20px;
+
+}
+
+.bl_img img{
+    width: 100%;
+
+}
+
+/*blog end*/
+
+/*news start*/
+
+.newsletter{
+    margin:70px 0 100px 0px ;
+    min-height: 400px;
+    background-color: #f0f0f0;
+
+
+
+}
+
+/*news end*/
+
+/*blog 2 start*/
+
+
+.load{
+    margin: 150px 0 50px;
+    text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #626262;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    transition: .33s ease;
+}
+.load button:hover{
+    color: white;
+    background-color: #101010;
+}
+/*blog 2 end*/
+
+/*footer start*/
+
+
+.page {border: 1px solid re;
+
+    width: 25%;
+    float: left;
+}
+.page ul{
+    float: right;
+
+
+}
+
+.page ul li{
+    list-style: none;
+    float: left;
+
+}
+
+.page ul li a{
+    font-weight: 500;
+    color: #101010;
+    text-decoration: none;
+    margin-right:25px;
+}
+
+   
+
+
+
+
+.social { border: 1px solid re;
+
+    width: 55%;
+    float: right;
+}
+.social ul{
+    float:right;
+
+}
+
+.social ul li{
+    list-style: none;
+    float: left;
+    margin: 0 20px;
+
+}
+
+
+
+.social ul li a{
+    font-weight: 500;
+    text-decoration: none;
+
+
+}
+
+.socialul li a img{
+    width: 100%;
+
+}
+
+.bg{border:1px solid re;
+    padding: 35px 0px;
+    background-color: #f0f0f0;
+}
+
+/*footer end*/
